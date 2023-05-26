@@ -12,11 +12,19 @@ color: #e7c581 !important;
     background-color: #e7c581 !important;
     color: #FFFFFF !important;
 }
+.btn-primary:hover{
+    background-color: transparent !important;
+    color:  #e7c581 !important;
+    border: 1px  #e7c581 solid ;
+}
+
 .bg-dark{
     background-color: black !important;
     color: #FFFFFF !important;
 }
-
+.bg-white{
+    background-color: #e7c581 !important;
+}
 h4,
 h5,
 h6,
@@ -164,9 +172,10 @@ h6,
     left: 0;
     display: flex;
     align-items: center;
-    background: rgba(0, 0, 0, .5);
-}
+    background-color: rgba(18, 48, 33, 0.5) !important;
+    background-blend-mode: soft-light !important;
 
+}
 @media (max-width: 768px) {
     .header-carousel .owl-carousel-item {
         position: relative;
@@ -259,11 +268,14 @@ height: 80vh !important;
 
 
 /*** About ***/
-.redius-img {
-    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3)
-     -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1)
-      -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
-    /* box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; */
+.radius-img {
+    box-shadow: rgba(42, 56, 52, 0.4) -5px 5px, rgba(138, 118, 53, 0.3)
+     -10px 10px, rgba(245, 189, 7, 0.2) -15px 15px, rgba(247, 230, 174, 0.1)
+      -20px 20px, rgba(248, 240, 217, 0.05) -25px 25px;
+      /* box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3)
+      -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1)
+       -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px; */
+ 
 }
 .img-twice::before {
     position: absolute;
@@ -381,7 +393,7 @@ height: 80vh !important;
 }
 
 .testimonial-carousel .owl-item.center .testimonial-item * {
-    color: #FFFFFF !important;
+    color: #e7c581 !important;
 }
 
 .testimonial-carousel .owl-nav {
