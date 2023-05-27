@@ -25,6 +25,13 @@ color: #e7c581 !important;
 .bg-white{
     background-color: #e7c581 !important;
 }
+.btnBg_1{
+    background-color:transparent !important;
+}
+.btnBg_2{
+    background-color:#e7c581 !important;
+}
+
 h4,
 h5,
 h6,
@@ -153,6 +160,10 @@ h6,
         transition: .5s;
         opacity: 0;
     }
+    .navbar .navbar-nav {
+        margin-top: 10px !important;
+    }
+
 
     .navbar .nav-item:hover .dropdown-menu {
         transform: rotateX(0deg);
@@ -235,7 +246,7 @@ h6,
 }
 .page-header {
     margin-bottom: 6rem;
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/carousel-1.jpg) center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/hm-2.avif) center center no-repeat;
     background-size: cover;
 }
 
