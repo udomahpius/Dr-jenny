@@ -31,6 +31,10 @@ color: #e7c581 !important;
 .btnBg_2{
     background-color:#e7c581 !important;
 }
+ .service-carousel-height{
+    height: 30vh !important;
+    padding-top: 1.2rem !important;
+}
 
 h4,
 h5,
@@ -73,7 +77,9 @@ h6,
     visibility: visible;
     opacity: 1;
 }
-
+.b-radius{
+    border-radius: 15px !important;
+}
 
 /*** Button ***/
 .btn {
@@ -280,7 +286,7 @@ height: 80vh !important;
 
 /*** About ***/
 .radius-img {
-    box-shadow: rgba(42, 56, 52, 0.4) -5px 5px, rgba(138, 118, 53, 0.3)
+    box-shadow: rgba(252, 237, 205, 0.4) -5px 5px, rgba(138, 118, 53, 0.3)
      -10px 10px, rgba(245, 189, 7, 0.2) -15px 15px, rgba(247, 230, 174, 0.1)
       -20px 20px, rgba(248, 240, 217, 0.05) -25px 25px;
       /* box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3)
@@ -306,6 +312,11 @@ height: 80vh !important;
 /*** Product ***/
 .product-item {
     transition: .5s;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.shadow-css{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
 }
 
 .product-item:hover {
@@ -472,4 +483,7 @@ height: 80vh !important;
 
 .copyright a:hover {
     color: var(--light);
+}
+.professional-carousel-height{
+    height: 50vh !important;
 }
