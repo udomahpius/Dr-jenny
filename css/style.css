@@ -12,6 +12,15 @@ color: #e7c581 !important;
     background-color: #e7c581 !important;
     color: #FFFFFF !important;
 }
+.carousel-bg{
+    background-color: #e7c581 !important;
+  
+}
+.carousel-line-height {
+    line-height: 1rem !important;
+    padding-top:2rem !important ;
+    height: 450px !important;
+}
 .btn-primary:hover{
     background-color: transparent !important;
     color:  #e7c581 !important;
