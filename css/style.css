@@ -5,6 +5,16 @@
     --light: #e7c581;
     --dark: #e7c581;
 }
+.div-font .fs-6{
+    font-size: 12px !important;
+}
+.div-font span{
+    font-size: 12px !important;
+  
+}
+ .p-font{
+    font-size: 12px !important;
+}
 .text-primary{
 color: #e7c581 !important;
 }
@@ -19,7 +29,11 @@ color: #e7c581 !important;
 .carousel-line-height {
     line-height: 1rem !important;
     padding-top:2rem !important ;
-    height: 450px !important;
+    height: 450px !important ;
+
+}
+.carousel-radius div{
+    border-radius: 15px !important;
 }
 .btn-primary:hover{
     background-color: transparent !important;
